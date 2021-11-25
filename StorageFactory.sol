@@ -5,7 +5,7 @@ pragma solidity ^0.6.0;
 // Import the contract and deploy it when deploy this contract
 import "./SimpleStorage.sol";
 
-contract StorageFactory {
+contract StorageFactory is SimpleStorage{
 
     SimpleStorage[] public simpleStorageArray;
 
